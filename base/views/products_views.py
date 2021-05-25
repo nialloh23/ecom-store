@@ -103,7 +103,6 @@ def uploadImage(request):
     return Response('Image was uploaded')
 
 @api_view(['POST'])
-@permission_classes([IsAdminUser])
 def createProductReview(request, pk):
     user = request.user
     product = Product.objects.get(_id=pk)
