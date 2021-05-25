@@ -208,5 +208,7 @@ AWS_S3_CUSTOM_DOMAIN = 'niall-proshop.s3.amazonaws.com'
 
 if os.getcwd() == '/app':
     DEBUG = False
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+    SECURE_SSL_REDIRECT = True
 else:
     DEBUG = True
