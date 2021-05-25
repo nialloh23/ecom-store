@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-l2^bw6krxct@-&)@n8_(876krz!s$xnar6ab$exn7+%g*5+s%u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'pro-shopper.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'pro-shopper.herokuapp.com', 'www.joeblob.co', 'joeblob.co']
 
 
 # Application definition
