@@ -49,15 +49,16 @@ https://user-images.githubusercontent.com/9644540/119570710-66b18f00-bda8-11eb-8
 3. Create react app: npx create-react-app app-name  
 5. cd frontend  
 7. npm start (this wil run the front-end in isolation at: http://localhost:3000/  
-9. Make changes to the front end (e.g. add a new component, change styles etc.)  
-11. npm run build (in frontend folder) -> this builds front end into static files for use by django  
+
+# Steps to run after making changes locally
+10. Make changes to the front end (e.g. add a new component, change styles etc.)  
+11. npm run build (in frontend folder) -> this puts all front end files in a build folder within django 
+12. python manage.py collectstaticfiles 
 
 # Database migrations
 1 - python manage.py makemigrations  
 2 - python manage.py migrate
 
-# Collect Static Files
-1 - python manage.py collectstaticfiles
 
 # Managing ENV variables
 - ENV pre-requisites: Prod(add as config vars in Heroku)  
