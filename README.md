@@ -56,11 +56,14 @@ https://user-images.githubusercontent.com/9644540/119570710-66b18f00-bda8-11eb-8
 1 - python manage.py makemigrations  
 2 - python manage.py migrate
 
+# Collect Static Files
+1 - python manage.py collectstaticfiles
+
 # Managing ENV variables
 - ENV pre-requisites: Prod(add as config vars in Heroku)  
 - Local(1. export KEY=....., 2. source ~/.zshenv to update terminal
 
 # Heroku Deployment
 - Heroku app name: pro-shopper
-- Check Heroku Logs: heroku logs --app=my-app 
+- Check Heroku Logs: heroku logs --app=pro-shopper 
 - Deployment: (1) push changes to github (2) deploy master branch manually via Heroku UI
