@@ -62,7 +62,9 @@ https://user-images.githubusercontent.com/9644540/119570710-66b18f00-bda8-11eb-8
 
 # Managing ENV variables
 - ENV pre-requisites: Prod(add as config vars in Heroku)  
-- Local(1. export KEY=....., 2. source ~/.zshenv to update terminal
+- echo 'export AWS_ACCESS_KEY_ID=XXXX' >> ~/.zshenv
+- source ~/.zshenv
+- echo AWS_ACCESS_KEY_ID
 
 # Heroku Deployment
 - Heroku app name: pro-shopper
